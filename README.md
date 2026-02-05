@@ -1,98 +1,62 @@
-🔄 Pipeline Stages
-Stage 0 — Raw Inputs
+# Dysregulation & Family Dynamics in Memoirs
 
-Location: inbox_photos/data_raw/
+Toolset for analyzing autobiographical / memoir texts — focusing on **emotional regulation patterns**, **family system types**, **trauma indicators**, **neurodivergence markers**, and life-stage differences (childhood vs adulthood).
 
-Book page photos or scans
+Currently processes page-level JSON extractions from scanned book photos → produces clean per-page tables + concise per-book summaries.
 
-Untouched extraction outputs
+## Project Structure (as of Feb 2026)
+inbox_photos/
+├── data_test/
+│   ├── pages_clean_.csv                  ← raw per-page extraction
+│   ├── books_summary_clean_.csv          ← recommended: clean per-book summary
+│   └── tables_out/                        ← all generated CSVs go here
+│
+├── feb4_bookregulation.py                 ← main script (pages → clean tables)
+├── feb4_stage4_booksummary.py             ← (optional) further analysis steps
+└── README.md
 
-No assumptions, no cleanup
 
-This folder is never edited directly.
+## Pipeline Steps I Followed
 
-Stage 1 — Feature Extraction
+1. **Scan & JSON extraction**  
+   Photos of book pages → OCR + LLM prompting → one JSON per page  
+   (contains: text, title/subtitle, evidence_snippets, dysreg flags, family_type, etc.)
 
-Script: jan27_stage1_extract_features_to_json.py
-Input: page-level JSONs
-Output: enriched JSONs with extracted features
+2. **Clean per-page table** (`pages_clean_YYYYMMDD_HHMMSS.csv`)  
+   - Parse book/author from folder names  
+   - Normalize booleans, fill page gaps inside known ranges  
+   - Forward-fill titles/subtitles per book  
+   - Compute consistent `family_type_primary` & `family_type_set` per book  
+   - Save detailed row-per-page file
 
-Extracts structured signals such as:
+3. **Clean per-book summary** (`books_summary_clean_YYYYMMDD_HHMMSS.csv`)  
+   Most useful output for analysis — one row per book with:  
 
-Dysregulation markers (physical pain, dissociation, people-pleasing, etc.)
+   | Column               | Meaning                                                                 |
+   |----------------------|-------------------------------------------------------------------------|
+   | author               | Author name                                                            |
+   | book_name            | Book title                                                             |
+   | n_pages              | Number of processed pages                                              |
+   | page_range           | e.g. 90–151                                                            |
+   | family_type_primary  | Most consistent family type (or "none")                                |
+   | family_type_set      | All reasonably frequent family types (pipe-separated or "none")       |
+   | narrator_dysreg      | Active narrator dysregulation patterns (semicolon list or "none")     |
+   | family_dysreg        | Active family dysregulation patterns                                   |
+   | dx_summary           | Active diagnoses (autism, adhd, depression, … or "none")               |
+   | key_snippets         | 1–3 short representative quotes/evidence                               |
 
-Family dysregulation patterns
+   → This is the file I usually open first in Excel / pandas for filtering & adding notes.
 
-Diagnoses (autism, ADHD, depression, etc.)
+4. **(Optional) Life-stage analysis**  
+   Earlier versions tried to classify childhood vs adulthood per snippet/page → too noisy  
+   → Current recommendation: do this manually or on aggregated book sections only
 
-Narrative voice & evidence snippets
+## How to Run
 
-Each page remains its own JSON for traceability.
+```bash
+# 1. Make sure you're in the project folder
+cd ~/yourpath to the project
 
-Stage 2 — Table Construction
-
-Script: jan27_stage2_make_json_features_table.py
-Output: page-level CSV tables
-
-Creates a flat, analyzable table where:
-
-Each row = one page
-
-Columns = extracted features + metadata
-
-Sorting & consistency are enforced
-
-This is the core “analysis-ready” dataset.
-
-Stage 3 — Cleaning & Validation
-
-Notebook: jan27_stage3notebook_end_end_clean_pipeline.ipynb
-
-Used for:
-
-Spot-checking coverage
-
-Verifying page ranges
-
-Fixing inconsistencies
-
-Sanity-checking feature distributions
-
-This is a human-in-the-loop quality gate.
-
-Stage 4 — Thematic Analysis Tables
-
-Script: feb4_stage5_table_byauthor_bydisregulation.py
-Output location: data_test/tables_out/
-
-Produces research-level summary tables, including:
-
-Book-level summaries
-
-Titles grouped under books
-
-Main dysregulation features by life stage (childhood vs adulthood)
-
-Author-level comparisons
-
-These tables are meant for:
-
-Comparative analysis
-
-Visualization
-
-Writing & interpretation
-
-📊 Output Tables (tables_out/)
-
-Typical outputs include:
-
-Book → Titles → Features
-
-Book-level dysregulation summary
-
-Author × Dysregulation matrices
-
-Family type distributions
-
-All outputs are CSV and Git-friendly.
+# 2. Run the main cleaning script
+python feb4_bookregulation.py
+#   → creates pages_clean_*.csv  AND  books_summary_clean_*.csv
