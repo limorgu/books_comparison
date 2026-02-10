@@ -1,0 +1,434 @@
+{
+  "book_meta": {
+    "title": "Autism in heels-jenifer cook",
+    "author": "otoole",
+    "total_pages": 10
+  },
+  "pages": [
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": null,
+        "title": "EXECUTIVE FUNCTIONING: GIRLS CAN BE PROFESSORS, TOO",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": true,
+        "diagnosis_name": "autistic neurology",
+        "quotes": [
+          "my version of normal does not look the same as most people's.",
+          "Those of us on the spectrum are simply less typical."
+        ]
+      },
+      "physical_body_sensation": {
+        "exists": false,
+        "quotes": []
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "I step in big and bad and—if I had to sum all of this up in one phrase, well, you’ve already heard it: I pull the rug right out from under myself when everybody's looking."
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 90,
+        "title": "Regulation Function Skills",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": true,
+        "diagnosis_name": "Anxiety",
+        "quotes": [
+          "anxiety builds and reminds us of all there is to dread . . . and we blurt and post and"
+        ]
+      },
+      "physical_body_sensation": {
+        "exists": true,
+        "quotes": [
+          "overwhelmed before we realize it"
+        ]
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "we struggle to remember that our experiences and feelings and ideas are not \"universal\"; what people say and think and feel isn't necessarily what they mean"
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 91,
+        "title": "EXECUTIVE FUNCTIONING: GIRLS CAN BE PROFESSORS, TOO",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": false,
+        "quotes": []
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "We’re called lazy and irresponsible because we seem to just be procrastinating or uninspired, but really, we are probably overcomplicating things. It’s much safer doing what we’re doing right here and now, not messing up or embarrassing ourselves, disappointing other people, or trying to adapt to unforeseen circumstances."
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 92,
+        "title": "Autism in Heels",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "unknown",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": true,
+        "quotes": [
+          "overreact to the smallest hint of error or concern",
+          "so overstimulated that we need to tune out and 'reset'",
+          "motor distractions like tapping or bounce"
+        ]
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "much more anxiety-producing, so out of anxiety",
+          "not stubbornness or disrespect"
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 93,
+        "title": "Trains and Fireflies",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": false,
+        "quotes": []
+      },
+      "child_internal_monologue": {
+        "exists": false,
+        "quotes": []
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 94,
+        "title": "Trains",
+        "subtitle": "Fireflies",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": true,
+        "quotes": [
+          "frustration we feel"
+        ]
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "It’s a fun place to be—if someone else is there to organize and systematize those wonderful ideas into life."
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 95,
+        "title": "EXECUTIVE FUNCTIONING: GIRLS CAN BE PROFESSORS, TOO",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": false,
+        "quotes": []
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "we feel “so smart but so stupid”",
+          "we are lost, confused, alone, and misunderstood",
+          "we really and truly are wired differently"
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 96,
+        "title": "Autism in Heels",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": true,
+        "diagnosis_name": "depression, anxiety",
+        "quotes": [
+          "chronic depression",
+          "terrible anxiety"
+        ]
+      },
+      "family_type": {
+        "exists": true,
+        "label": "divorced",
+        "quotes": [
+          "divorced 30 percent more than neurotypical women"
+        ]
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": true,
+        "quotes": [
+          "self-harming",
+          "seeking escape in drugs, sex, alcohol"
+        ]
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "we often suffer from chronic depression and terrible anxiety",
+          "we give up on ourselves"
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 97,
+        "title": "Pivot Point",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": true,
+        "label": "supportive mother",
+        "quotes": [
+          "my mother still helps with playdates and laundry",
+          "she knows that I go nonstop"
+        ]
+      },
+      "child_diagnosis": {
+        "exists": true,
+        "diagnosis_name": "autism",
+        "quotes": [
+          "Being identified as having autism did not rewire my mind",
+          "discovering the autism answer did lift some of the feelings of blame from my shoulders"
+        ]
+      },
+      "physical_body_sensation": {
+        "exists": false,
+        "quotes": []
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "I know that I go nonstop",
+          "I give my everything all day, every day",
+          "I can't do life alone"
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": true,
+        "quotes": [
+          "she knows that I go nonstop",
+          "she knows that, too"
+        ]
+      }
+    },
+    {
+      "meta_data": {
+        "book_name": "Autism in heels-jenifer cook",
+        "page_number": 98,
+        "title": "AUTISM IN HEELS",
+        "subtitle": "",
+        "author": "otoole"
+      },
+      "narrator_voice": "adult",
+      "parent_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "family_type": {
+        "exists": false,
+        "label": "",
+        "quotes": []
+      },
+      "child_diagnosis": {
+        "exists": false,
+        "diagnosis_name": "",
+        "quotes": []
+      },
+      "physical_body_sensation": {
+        "exists": false,
+        "quotes": []
+      },
+      "child_internal_monologue": {
+        "exists": true,
+        "quotes": [
+          "'I have to navigate social cues constantly.'",
+          "'The cognitive demands are overwhelming.'"
+        ]
+      },
+      "parent_to_child_feedback": {
+        "exists": false,
+        "quotes": []
+      }
+    }
+  ]
+}
