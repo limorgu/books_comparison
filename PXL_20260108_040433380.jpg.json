@@ -1,0 +1,39 @@
+{
+  "meta_data": {
+    "book_name": "Autism in heels-jenifer cook",
+    "page_number": 91,
+    "title": "EXECUTIVE FUNCTIONING: GIRLS CAN BE PROFESSORS, TOO",
+    "subtitle": "",
+    "author": "otoole"
+  },
+  "narrator_voice": "adult",
+  "parent_diagnosis": {
+    "exists": false,
+    "diagnosis_name": "",
+    "quotes": []
+  },
+  "family_type": {
+    "exists": false,
+    "label": "",
+    "quotes": []
+  },
+  "child_diagnosis": {
+    "exists": false,
+    "diagnosis_name": "",
+    "quotes": []
+  },
+  "physical_body_sensation": {
+    "exists": false,
+    "quotes": []
+  },
+  "child_internal_monologue": {
+    "exists": true,
+    "quotes": [
+      "We’re called lazy and irresponsible because we seem to just be procrastinating or uninspired, but really, we are probably overcomplicating things. It’s much safer doing what we’re doing right here and now, not messing up or embarrassing ourselves, disappointing other people, or trying to adapt to unforeseen circumstances."
+    ]
+  },
+  "parent_to_child_feedback": {
+    "exists": false,
+    "quotes": []
+  }
+}
